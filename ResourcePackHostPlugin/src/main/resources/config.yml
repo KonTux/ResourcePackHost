@@ -1,0 +1,20 @@
+# Relative path to resource pack, use ../ to go up one directory
+# Example "../../EpicPack.zip" <- EpicPack.zip would be placed in the server directory
+# since we are going up two directories
+pack: "resource pack path here"
+
+# Port for the HTTP server to be hosted on
+port: 12345
+
+# Amount of connections the HTTP server allows to be queued before refusing connections.
+backlog: 100
+
+# The url path
+url-path: "/resourcepack"
+
+# Amount of threads to handle HTTP requests, be careful here and choose it according
+# to the amount of players and resources of your server
+threads: 2
+
+# If players should download the pack when joining
+on-join: false

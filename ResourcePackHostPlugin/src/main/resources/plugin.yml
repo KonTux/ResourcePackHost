@@ -1,0 +1,15 @@
+name: ResourcePackHost
+version: 1.0
+main: de.kontux.resourcepackhost.plugin.ResourcePackHostPlugin
+
+commands:
+  resourcepack:
+    description: Lets a player download the resource pack.
+    usage: /resourcepack
+    aliases:
+      - rp
+  resourcepackhost:
+    description: Main command
+    usage: /resourcepackhost <option>
+    aliases:
+      - rph
